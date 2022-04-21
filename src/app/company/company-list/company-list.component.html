@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+    <tr>
+      <td>UserId</td>
+      <td>Id</td>
+      <td>Title</td>
+      <td>Body</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let post of postList">
+      <td>{{post.userId}}</td>
+      <td>{{post.id}}</td>
+      <td>{{post.title}}</td>
+      <td>{{post.body}}</td>
+    </tr>
+  </tbody>
+</table>
